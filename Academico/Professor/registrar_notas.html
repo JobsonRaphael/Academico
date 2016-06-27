@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+
+
+<head>
+<style type="text/css">
+	@import url("../Academico.css");
+</style>
+<meta charset="utf-8">
+<title>Registrar Notas</title>
+<center><img id="logo"src="..\Imagens\imgindex.png" height="100" width="350"></center>
+<h1 id="TT1">Sistema de Gestão Acadêmica ­ ACAD
+</h1>
+<script type="text/JavaScript" src="../JavaScript/ValidarFormRegistrarNotas.js"></script>
+</head>
+
+<body>
+<h2 id="TT1"><a href="..\Professor\menu_professor.html"><u>Professor</u></a> :: Registrar notas</h2>
+<div id="Corpo">
+
+
+<form name="Cadastro">
+<fieldset><legend>Selecione o aluno</legend>
+<select name="aluno">
+<option value="0">Selecione um Aluno</option>
+<option value="Aninha">Aninha</option>
+<option value="Max">Max</option>
+<option value="Joana">Joana</option>
+<option value="Estela">Estela</option>
+</select>
+</fieldset>
+
+<fieldset><legend>Selecione a Disciplina</legend>
+
+<select name="disciplina">
+<option value="0">Selecione uma Disciplina</option>
+<option value="Licenciatura em Matemática">Licenciatura em Matemática</option>
+<option value="Bacharelado em Matemática">Bacharelado em Matemática</option>
+<option value="Direito">Direito</option>
+<option value="Medicina">Medicina</option>
+<option value="Engenharia de Produção">Engenharia de Produção</option>
+</select>
+
+</fieldset>
+	
+	<fieldset><legend>Selecione o turno</legend>
+	
+
+
+I Unidade <input type="radio" name="unidade"> 
+II Unidade <input type="radio" name="unidade">
+	
+	
+	</fieldset>
+
+<fieldset><legend>Nota</legend>
+<input type="text" name="nota" id= "nota" maxlength="4">
+</fieldset>
+	
+	
+
+<br>
+	
+		<center><input class="Bconfirmar" onclick="return ValidarForm();" id="EnviarRegistarNotas" type="submit" name="envia" value="Enviar"></center> 
+		<br>
+	
+	</form>
+</div>
+	<center><a id="Bmenu"href="..\index.html"<u>Menu Principal</u></a></center>
+
+</body>
+
+</html>

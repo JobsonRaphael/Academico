@@ -1,0 +1,59 @@
+CREATE TABLE aluno(
+
+
+nomeAluno VARCHAR(50),
+
+rgAluno int(10),
+
+cpfAluno int(10),
+
+matriculaAluno VARCHAR(10),
+emailAluno VARCHAR(50),
+
+dataNascimento DATE,
+
+telefone int(9)
+
+);
+
+
+CREATE TABLE disciplina(
+
+
+nomeDisciplina VARCHAR(20),
+codigoDisciplina int(3),
+
+
+
+);
+
+CREATE TABLE curso(
+
+codigoCurso int(3),
+nomecurso varcha(40),
+
+turno int(1)
+
+
+);
+
+CREATE TABLE professor(
+
+nomeProf VARCHAR(50),
+
+rgProf int(10),
+
+cpfProf int(10),
+dataNascimentoProf DATE,
+sexoProf VARCHAR(1),
+
+emailProf VARCHAR(50),
+
+matriculaProf int (10),
+
+rua VARCHAR(50),
+
+cidade VARCHAR(50),
+bairro VARCHAR(50),
+cep int(10),
+);

@@ -1,0 +1,18 @@
+index - C:\Users\Robson\Desktop\Academico\index.html
+help - C:\Users\Robson\Desktop\Academico\help.html
+
+aluno menu - C:\Users\Robson\Desktop\Academico\Aluno\menu_aluno.html
+aluno altera dados - C:\Users\Robson\Desktop\Academico\Aluno\alterar_dados_pessoais.html
+aluno emitir comprovante - C:\Users\Robson\Desktop\Academico\Aluno\alterar_dados_pessoais.html
+aluno visualizar notas faltas - C:\Users\Robson\Desktop\Academico\Aluno\visualizar_notas_faltas.html
+
+professor menu - C:\Users\Robson\Desktop\Academico\Professor\menu_professor.html
+professor cadastrar - C:\Users\Robson\Desktop\Academico\Professor\cadastrar_projeto_pesquisa.html
+professor registrar faltas - C:\Users\Robson\Desktop\Academico\Professor\registrar_faltas.html
+professor registrar notas - C:\Users\Robson\Desktop\Academico\Professor\registrar_notas.html
+
+secretaria menu - C:\Users\Robson\Desktop\Academico\Secretaria\menu_secretaria.html
+secretaria cadastrar cursos - C:\Users\Robson\Desktop\Academico\Secretaria\cadastrar_cursos_disciplinas.html
+secretaria cadastrar professor - C:\Users\Robson\Desktop\Academico\Secretaria\cadastrar_professor.html
+secretaria emitir historico - C:\Users\Robson\Desktop\Academico\Secretaria\emitir_historico.html
+secretaria realizar matricula - C:\Users\Robson\Desktop\Academico\Secretaria\realizar_matricula.html

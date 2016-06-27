@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+
+
+<head>
+<style type="text/css">
+	@import url("../Academico.css");
+</style>
+<meta charset="utf-8">
+<title>Emitir comprovante</title>
+<center><img id="logo"src="..\Imagens\imgindex.png" height="100" width="350"></center>
+<h1 id="TT1">Sistema de Gestão Acadêmica ­ ACAD
+</h1>
+<script type="text/javascript" src="../JavaScript/ValidarFormComprovanteMatricula.js"></script>
+</head>
+
+<body>
+
+<h2 id="TT1"><a href="..\Aluno\menu_aluno.html"><u>Aluno</u></a> :: Emitir Comprovante de Matrícula</h2>
+<div id="Corpo">
+<fieldset><legend>Selecione o aluno *</legend>
+<form name="Cadastro">
+<select  name="aluno">
+<option value="0">Selecione um Aluno</option>
+<option value="Jobinho">Jobinho</option>
+
+<option value="Aninha" >Aninha</option
+<option value="Max">Max</option>
+<option value="Joana">Joana</option>
+<option value="Estela">Estela</option>
+</select>
+</fieldset>
+
+<fieldset><legend>Semestre *</legend>
+<input type="text" name="semestre"  maxlength="10">
+</fieldset>
+
+<fieldset><legend>Selecione o tipo de emissão: </legend>
+	
+ 
+Enviar por e-mail <input type="radio" name="turno" value="email">
+		
+		</fieldset>
+
+		</fieldset>
+		<input type="submit"  id="bt" value="Enviar" onclick="return ValidarForm();">	
+		<br>
+</form>
+ 
+</div>
+<center><a id="Bmenu" href="..\index.html"><u>Menu Principal</u></a></center>
+
+
+
+
+</body>
+
+</html>

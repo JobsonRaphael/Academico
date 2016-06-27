@@ -1,0 +1,163 @@
+@import url(https://fonts.googleapis.com/css?family=Orbitron);
+
+#TT1 {color: #1E90FF; /* Titulo 1  - Todos os Titulos ACAD*/
+text-align: center;
+	font-family:  'Orbitron', sans-serif; 
+	
+	font-shadow: 1px 1px 1px #999; /* Sombra */	
+	}
+legend{
+	color:black;
+	
+	
+}	
+	
+	
+#Corpo{  /* Corpo da PG */
+box-shadow: 1px 1px 1px #999; /* Sombra */	
+
+	
+    padding:10px;
+	margin:50px;
+	list-style:none;
+   background: rgb(ff, 0, 0) transparent;
+   background: rgba(135,206,250, 0.7);
+border-radius: 10px;
+text-align: center;
+font-family: 'Orbitron', sans-serif;
+font-size: 20px;
+color:red;
+width:500px;
+margin-left:33%;
+} 
+#logo{ /* Imagen LOGO */
+    max-width:250px;
+    max-height:200px;
+    width: auto;
+    height: auto;
+
+} 	
+#Bmenu{ /*Botão do Menu */
+	
+	
+	font-family: 'Orbitron', sans-serif;
+font-size: 20px;
+}	
+body{background-image:  url("Imagens/fundo2.jpg");
+
+
+
+
+}
+
+
+.Bconfirmar{  /*botão de confirmar envio dos formulários */
+	
+display: inline-block;
+background-color: #FFF;
+color: #87CEFA;
+padding: 10px 20px;
+text-decoration: none;
+box-sizing: border-box;
+font-family: 'Orbitron', sans-serif;
+font-size: 19px;
+border: 0px;
+background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,.15));
+cursor: pointer;
+box-shadow: 1px 1px 1px #999; /* Sombra */	
+border-radius: 4px;/* Cantos Arredondados */
+	
+}
+/* Conteiner do Slideshow */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;]
+ 
+}
+td{
+	text-align:right;
+}
+
+
+/* Botões nex */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Posicionando o botão next pra direita*/
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #1E90FF;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.2s ease;
+box-shadow: 3px 3px 3px #999;
+  }
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Animação fading */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}

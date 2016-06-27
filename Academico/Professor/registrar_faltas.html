@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+
+
+<head>
+<style type="text/css">
+	@import url("../Academico.css");
+</style>
+<meta charset="utf-8">
+<title>Registrar Faltas</title>
+<center><img id="logo" src="..\Imagens\imgindex.png" height="100" width="350"></center>
+<h1 id="TT1">Sistema de Gestão Acadêmica ­ ACAD</h1>
+
+<script type="text/JavaScript" src="../JavaScript/ValidarformRegistrarFaltas.js"></script>
+</head>
+<body>
+<h2 id="TT1"><a href="..\Professor\menu_professor.html"><u>Professor</u></a> :: Registrar faltas</h2>
+
+<div id="Corpo">
+<fieldset><legend>Selecione o aluno</legend>
+<form name="Cadastro">
+<select name="aluno">
+<option value="0">Selecione Um aluno</option>
+<option value="Jobinho">Jobinho</option>
+<option value="Aninha">Aninha</option>
+<option value="Max">Max</option>
+<option value="Joana">Joana</option>
+<option value="Estela">Estela</option>
+</select>
+</fieldset>
+
+<fieldset><legend>Disciplinas</legend>	
+<select name="disciplina">
+
+<option value="0">Selecione um disciplina</option>
+<option value="Inglês Instrumental">Inglês Instrumental</option>
+<option value="Programação Orientada a Objetos">Programação Orientada a Objetos</option>
+<option value="Direito Instrumental">Direito Instrumental</option>
+<option value="Constitucional">Constitucional</option>
+<option value="Matemática">Matemática</option>
+</select>
+</fieldset>
+
+<fieldset><legend>Data:</legend>
+<input type="date" name="data" id= "nome" maxlength="10">
+</fieldset>
+
+<fieldset><legend>Numero de Faltas:</legend>
+<input type="text" name="faltas" id= "nome" maxlength="2">
+</fieldset>
+<center><input onclick="return ValidarForm();"class="Bconfirmar" id="EnviarRegistrarFaltas" type="submit" name="enviar" value="Enviar"></center> 
+</form>
+</div>
+<center><a id="Bmenu" href="..\index.html"><u>Menu Principal</u></a></center>
+</body>
+
+</html>

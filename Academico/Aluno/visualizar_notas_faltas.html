@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+
+
+<head>
+<style type="text/css">@import url("../Academico.css");</style>
+<meta charset="utf-8">
+<title>Visualizar notas</title>
+<center><img id="logo" src="..\Imagens\imgindex.png" height="100" width="350"></center>
+<script type="text/JavaScript" src="../JavaScript/ValidarFormVisualizarNotas.js"></script>
+</head>
+
+<body>
+<h1 id="TT1">Sistema de Gestão Acadêmica ­ ACAD</h1>
+<h2 id="TT1"><a href="..\Aluno\menu_aluno.html"><u>Aluno</u></a> :: Consultar Notas e Faltas</h2>
+<div id="Corpo">
+<fieldset><legend>Selecione o aluno</legend>
+<form name="Cadastro">
+<select name="aluno">
+<option value="0">Selecione Um Aluno</option>
+<option value="Jobinho">Jobinho</option>
+<option value="Aninha">Aninha</option>
+<option value="Max">Max</option>
+<option value="Joana">Joana</option>
+<option value="Estela">Estela</option>
+</select>
+
+</fieldset>
+<fieldset><legend>Selecione o Curso</legend>
+
+<select name="curso">
+<option value="0">Selecione um Curso</option>
+<option value="Licenciatura em Matemática">Licenciatura em Matemática</option>
+<option value="Bacharelado em Matemática">Bacharelado em Matemática</option>
+<option value="Direito">Direito</option>
+<option value="Medicina">Medicina</option>
+<option value="Engenharia de Produção">Engenharia de Produção</option>
+</select>
+</fieldset>
+</form>
+<center><input type="submit"  id="bt" value="Enviar" onclick="return ValidarForm();"></center> 
+
+</div>
+
+<center><a id="Bmenu" href="..\index.html"><u>Menu Principal</u></a></center>
+
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+
+
+<head>
+<style type="text/css">
+	@import url("../Academico.css");
+</style>
+<meta charset="utf-8">
+<title>Cadastrar Projeto</title>
+<center><img id="logo"src="..\Imagens\imgindex.png" height="100" width="350"></center>
+<h1 id="TT1">Sistema de Gestão Acadêmica ­ ACAD
+</h1>
+<script type="text/JavaScript" src="../JavaScript/ValidarFormCadastrarProjeto.js"></script>
+</head>
+
+<body>
+<h2 id="TT1"><a href="..\Professor\menu_professor.html"><u>Professor</u></a> :: Cadastrar Projeto de Pesquisa</h2>
+<div id="Corpo">
+<fieldset>
+<fieldset><legend>Selecione o Professor</legend>
+<form name="Cadastro">
+<select name="professor">
+<option value="0">Selecione Um Professor</option>
+<option value="Havana">Havana</option>
+<option value="Francisco">Francisco</option>
+<option value="Roberto">Roberto</option>
+<option value="Pedro">Pedro</option>
+<option value="Diego">Diego</option>
+</select>
+</fieldset>
+<fieldset><legend>Título do Projeto</legend>
+<input type="text" name="nomedoprojeto" id= "nome" maxlength="50">
+</fieldset>
+<fieldset><legend>Semestre</legend>
+<input type="text" name="nome" id= "nome" >
+</fieldset>
+<fieldset><legend>Descrição</legend>
+ <textarea cols=20 rows=5 ></textarea>
+</fieldset>
+<center><input class="Bconfirmar" id="EnviarCadastraProjeto" type="submit" name="envia" onclick="return ValidarForm();" value="Enviar"></center> 
+</fieldset>
+
+	</form>
+
+</div>
+<center><a id="Bmenu" href="..\index.html"><u>Menu Principal</u></a></center>
+
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+
+
+<head>
+
+<style type="text/css">
+	@import url("../Academico.css");
+</style>
+<meta charset="utf-8">
+<title>Aterar dados</title>
+<center><img id="logo"src="..\Imagens\imgindex.png" height="100" width="350"></center>
+<script type="text/javascript" src="../JavaScript/ValidarFormDadosPessoaisAluno.js"></script>
+<script type="text/javascript" src="../JavaScript/mascara.js"></script>
+</head>
+
+<body>
+<h2 id="TT1">Sistema de Gestão Acadêmica ­ ACAD
+</h2>
+<h2 id="TT1"><a href="..\Aluno\menu_aluno.html"><u>Aluno</u></a> :: Alterar dados pessoais</h2>
+<div id="Corpo">
+
+<form name="Cadastro" style="label.font-style:#FFF0000">
+	
+	<fieldset><legend>Alterar Dados Pessoais</legend>
+	<center><table border="0" >
+	<tr><td >Nome*-</td><td><input  type="text" name="nome" id= "nome"><br></td></tr>
+	<tr><td> CPF*-</td> <td><input   maxlength="14" type="text" name="cpf" id="cpf" onKeyPress="MascaraCPF(Cadastro.cpf);"><br></td></tr>
+	<tr></td><td>Matrícula*-</td> <td><input type="text"   name="matricula" id="matricula"></td></tr>
+
+	</table>
+</center>
+	</fieldset>
+ 	</form>
+<form>
+	
+	<fieldset id="informacoesadd"><legend>Informações Adicionais</legend>
+	<label>Email-</label> <input type="E-mail" name="nome" id= "Email"><br>
+   <label> Data de Nasc.-</label> <input type="date" name="cpf" id="CPF"><br>
+	Telefone- <input type="text" name="matrícula" id="telefone">
+</fieldset>
+ 	<input type="submit" name="button" id="button" value="Enviar" onclick="return ValidarForm();">
+	</form>
+	
+	</div>
+<center><a id="Bmenu" href="..\index.html"><u>Menu Principal</u></a></center>
+
+</body>
+
+</html>
